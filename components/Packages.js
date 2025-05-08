@@ -9,12 +9,6 @@ import "swiper/css/navigation";
 const destinations = [
   {
     country: "USA",
-    location: "Orlando",
-    price: "$250",
-    image: "/images/destinations/orlando.jpg",
-  },
-  {
-    country: "USA",
     location: "Boston",
     price: "$175",
     image: "/images/destinations/boston.jpg",
@@ -27,9 +21,16 @@ const destinations = [
   },
   {
     country: "USA",
+    location: "Orlando",
+    price: "$250",
+    image: "/images/destinations/orlando.jpg",
+  },
+
+  {
+    country: "USA",
     location: "Hawaii",
     price: "$99",
-    image: "/images/destinations/hawaii.webp",
+    image: "/images/destinations/hawaii.jpg",
   }
 ];
 
