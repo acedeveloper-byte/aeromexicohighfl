@@ -8,15 +8,7 @@ const HomeContent = () => {
     <div className="home-content-section py-5 bg-light">
       <Container>
         <Row className="align-items-center g-4">
-          <Col md={6} className="text-center text-md-start">
-            <Image
-              src="/images/home-about-poster.jpg"
-              alt="Airlines"
-              width={550}
-              height={450}
-              className="rounded shadow"
-            />
-          </Col>
+         
 
           <Col md={6}>
             <p className="text-primary fw-semibold text-uppercase mb-2">Travel For Less!</p>
@@ -40,6 +32,16 @@ const HomeContent = () => {
             <li>lorem</li>
 
                 </ul>
+          </Col>
+
+          <Col md={6} className="text-center text-md-start">
+            <Image
+              src="/images/home-about-poster.jpg"
+              alt="Airlines"
+              width={550}
+              height={450}
+              className="rounded shadow"
+            />
           </Col>
         </Row>
       </Container>
