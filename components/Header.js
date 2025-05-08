@@ -12,8 +12,8 @@ const Header = () => {
     <Navbar expand="lg" className="navbar-bg-color">
       <Container>
         <Navbar.Brand as={Link} href="/">
-          {/* <Image src="/logo/logo.png" width={170} height={50} alt="logo" className="logo-layout"/> */}
-          <h2>aeromexicohighfly</h2>
+          <Image src="/logo/logo.png" width={170} height={50} alt="logo" className="logo-layout"/>
+         
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav " style={{ fontSize: '11px !important' }} />
         <Navbar.Collapse id="basic-navbar-nav" >
