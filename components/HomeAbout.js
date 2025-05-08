@@ -14,7 +14,7 @@ const HomeContent = () => {
               alt="Airlines"
               width={550}
               height={450}
-              className="img-fluid rounded shadow"
+              className="rounded shadow"
             />
           </Col>
 
