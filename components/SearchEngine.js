@@ -142,6 +142,7 @@ const SearchEngine = () => {
           transform: "translateX(-50%)",
           zIndex: 2,
           width: "85%",
+          background: "#1c1b38 !important"
           
         }}
       >
@@ -172,7 +173,7 @@ const SearchEngine = () => {
         {/* Input Fields */}
         <Row className="g-2 align-items-end">
           <Col md>
-            <Form.Label>From</Form.Label>
+            <Form.Label className="text-white">From</Form.Label>
             <InputGroup>
               <InputGroup.Text>
                 <FaPlaneDeparture />
@@ -195,7 +196,7 @@ const SearchEngine = () => {
           </Col>
 
           <Col md>
-            <Form.Label>To</Form.Label>
+            <Form.Label className="text-white">To</Form.Label>
             <InputGroup>
               <InputGroup.Text>
                 <FaPlaneArrival />
@@ -209,7 +210,7 @@ const SearchEngine = () => {
           </Col>
 
           <Col md>
-            <Form.Label>Depart</Form.Label>
+            <Form.Label className="text-white">Depart</Form.Label>
             <InputGroup>
               <InputGroup.Text>
                 <BsCalendarDate />
@@ -225,7 +226,7 @@ const SearchEngine = () => {
 
           {tripType === "roundtrip" && (
             <Col md>
-              <Form.Label>Return</Form.Label>
+              <Form.Label className="text-white">Return</Form.Label>
               <InputGroup>
                 <InputGroup.Text>
                   <BsCalendarDate />
@@ -242,7 +243,7 @@ const SearchEngine = () => {
 
           {/* Travelers + Cabin Class Combined */}
           <Col md>
-            <Form.Label>Travelers & Cabin</Form.Label>
+            <Form.Label className="text-white">Travelers & Cabin</Form.Label>
             <OverlayTrigger
               trigger="click"
               placement="bottom-end"
