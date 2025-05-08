@@ -13,7 +13,7 @@ const HomeContent = () => {
               src="/images/home-about-poster.jpg"
               alt="Airlines"
               width={550}
-              height={500}
+              height={450}
               className="img-fluid rounded shadow"
             />
           </Col>
