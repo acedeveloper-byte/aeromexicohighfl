@@ -13,9 +13,10 @@ export default function Home() {
     <>
       <Header />
       <SearchEngine />
+      <CustomerHelp />
+
       <TopDestinations />
       <HomeAbout />
-      <CustomerHelp />
       <Packages />
       <HomeDetails />
 
