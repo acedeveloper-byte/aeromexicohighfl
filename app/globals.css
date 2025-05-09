@@ -404,6 +404,11 @@ h1.fs-2 {
     padding-left: 15px;
     padding-right: 15px;
   }
+
+ .helpline-cards{
+  position: relative !important;
+  top: 19rem !important;
+ }
 }
 
 
@@ -436,6 +441,21 @@ h1.fs-2 {
 
 .home-content-section p {
   line-height: 1.7;
+}
+
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .helpline-cards {
+    margin-top: -13rem !important;
+
+  }
+
+
+  .home-page-image-layout{
+    position: relative !important;
+    height: 726px !important;
+  }
 }
 
 

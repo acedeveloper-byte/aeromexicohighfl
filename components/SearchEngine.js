@@ -104,7 +104,7 @@ const SearchEngine = () => {
   );
 
   return (
-    <div style={{ position: "relative", height: "450px" }}>
+    <div style={{ position: "relative", height: "450px" }} className="home-page-image-layout">
       {/* Background */}
       <Image
         src="/images/home-poster.jpg"
@@ -134,7 +134,7 @@ const SearchEngine = () => {
 
       {/* Search Form Box */}
       <div
-        className="bg-white p-3 rounded shadow"
+        className="bg-white p-3 rounded shadow my-2"
         style={{
           position: "absolute",
           top: "178px",

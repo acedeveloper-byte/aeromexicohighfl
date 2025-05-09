@@ -8,6 +8,8 @@ import {
   FaShieldAlt,
 } from "react-icons/fa";
 
+
+
 const features = [
   {
     title: "Affordable Fares",
@@ -37,8 +39,8 @@ const features = [
 
 const CustomerHelp = () => {
   return (
-    <Container className="text-center my-5">
-      <div className="d-flex justify-content-center align-items-center mb-4">
+    <Container className="text-center my-5 helpline-cards">
+      <div className="d-flex justify-content-center align-items-center mb-4 ">
         <div className="hr-line"></div>
         <h3 className="fw-bold px-4 py-2 rounded-pill destination-layout">
           Smart Travelers Book Here
