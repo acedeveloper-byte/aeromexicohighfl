@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Our Blogs | Librovuelos",
-  description: "Would you like to specify a particular type of airline service or keep it general?",
+  title: "",
+  description: "",
 };
 
 export default function RootLayout({ children }) {

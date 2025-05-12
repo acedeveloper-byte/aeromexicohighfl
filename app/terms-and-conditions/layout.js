@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Terms of Service | Librovuelos",
-  description: "Would you like to keep the mention of ibrovuelos in all versions or generalize that too?",
+  title: "",
+  description: "",
 };
 
 export default function RootLayout({ children }) {
