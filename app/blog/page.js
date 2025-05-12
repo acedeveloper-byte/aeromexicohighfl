@@ -22,7 +22,7 @@ const Page = () => {
             <Col key={index} md={4}>
               <Card className="h-100 shadow-sm border-0">
                 <Image
-                  src="/images/cards-blog.png"
+                  src="/images/blog-images/blog1.jpg"
                   alt="blog"
                   width={353}
                   height={180}
@@ -31,7 +31,7 @@ const Page = () => {
                 <Card.Body>
                   <Card.Title className="fw-bold">Airlines</Card.Title>
                   <Card.Text>
-                    American Airlines extends its service to lesser-visited islands.
+                 <a href="/blog/american-airlines-extends" className='text-decoration-none text-dark'>  American Airlines extends its service to lesser-visited islands. </a>
                   </Card.Text>
                 </Card.Body>
               </Card>
