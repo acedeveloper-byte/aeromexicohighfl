@@ -43,7 +43,8 @@ const CustomerHelp = () => {
       <div className="d-flex justify-content-center align-items-center mb-4 ">
         <div className="hr-line"></div>
         <h3 className="fw-bold px-4 py-2 rounded-pill destination-layout">
-          Smart Travelers Book Here
+          Book Smarter, Travel Better
+
         </h3>
         <div className="hr-line"></div>
       </div>

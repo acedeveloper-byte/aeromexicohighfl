@@ -128,8 +128,8 @@ const SearchEngine = () => {
           background: "radial-gradient(black, transparent)",
         }}
       >
-        <h1 className="fw-bold display-5">Find Discounted Flight Fares!</h1>
-        <p className="lead">Get unlimited deals and save big on your next flight.</p>
+        <h1 className="fw-bold display-5">Sky-High Deals For Your Next Flight!</h1>
+        <p className="lead">Soar to new destinations with us at low fares.</p>
       </div>
 
       {/* Search Form Box */}

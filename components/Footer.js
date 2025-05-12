@@ -14,9 +14,9 @@ const Footer = () => {
         <Row>
           {/* About Us */}
           <Col md={4} className="mb-4 text-start">
-            <Image src="/logo/logo.png1" alt="logo" width={190} height={50} className="mb-2 footer-logo" />
+            <Image src="/logo/logo.png" alt="logo" width={190} height={50} className="mb-2 footer-logo" />
             <p>
-           lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20   </p>
+          At Aeromexicohighfly, we focus on making your travel dreams a reality that too within your budget. Book with us as soon as possible to save big on your Aeromexico flight booking. Contact us today for great flight deals.   </p>
 
             <div className="d-flex gap-3 mt-3">
               <a href="#" className="text-white fs-5"><FaFacebookF /></a>
@@ -64,13 +64,13 @@ const Footer = () => {
 
         {/* Footer Bottom */}
         <div className="border-top mt-4 pt-3">
-          <p className="text-white small mb-1">
-            <strong>Disclaimer:</strong> loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem
+          <p className="text-white small mb-1 text-center">
+            <strong>Disclaimer:</strong> Aeromexicohighfly operates as an independent third-party travel agency with no direct affiliation with Aeromexico Airlines. 
 
           </p>
           <hr />
           <p className="text-white small mb-0 text-center">
-            © 2025 lorem. All Rights Reserved.
+            © 2025 aeromexicohighfly. All Rights Reserved.
           </p>
         </div>
       </Container>
