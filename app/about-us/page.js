@@ -12,33 +12,40 @@ const page = () => {
       <Container className="py-5">
         <div className="mb-4 text-center">
           <h1 className="fw-bold fs-2">About Us</h1>
-          <p className="lead text-muted">Learn more about our services and what we offer!</p>
         </div>
-        
+
         <hr />
-        
+
         <div className="about-section">
-          <p className="mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempus dui et felis fermentum, sit amet luctus ante volutpat. Vivamus auctor ac odio non facilisis. Curabitur scelerisque dui eget nulla elementum, ac vestibulum erat aliquet. Nulla facilisi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-          </p>
+          <p>Aeromexicohighfly is your ultimate partner if you wish to book cheap flights to your dream destination. We operate as a third-party travel agency that helps you find and book cheap Aeromexico flights with ease. We don&rsquo;t have direct links with Aeromexico Airlines; we just offer the airline&rsquo;s services at low fares to customers.&nbsp;</p>
 
-          <p className="mb-4">
-            Maecenas sollicitudin nisi sit amet diam suscipit, et pretium sapien mollis. Donec ut tortor vitae ante convallis efficitur. Ut pretium diam et felis tempor, eget rutrum augue efficitur. Integer vitae orci ac eros posuere pretium. Fusce volutpat leo id purus faucibus, a dictum risus elementum. Vivamus laoreet, magna et dictum volutpat, ante purus venenatis metus, id sodales metus dui vel elit. 
-          </p>
+          <p>At Aeromexicohighfly, we believe that traveling is not just about reaching your destination; it is about creating timeless memories in the air. Therefore, we offer premium services at discounted fares for your convenience. Share your requirements with us, and we will make sure that you don&rsquo;t face any problems when planning your dream trip.</p>
 
-          <h3 className="h4 mb-3">Why Choose Us?</h3>
-          <ul>
-            <li><strong>Unbeatable Deals:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-            <li><strong>Tailor-Made Packages:</strong> Nulla facilisi. Morbi ultricies, sapien ut gravida varius, sapien velit pharetra felis, sit amet malesuada ante felis at urna.</li>
-            <li><strong>Worldwide Destinations:</strong> Fusce at placerat tortor. Nulla scelerisque magna id augue dictum viverra.</li>
-            <li><strong>24/7 Customer Service:</strong> Sed tempus, lorem eu tincidunt condimentum, lorem risus pretium turpis, ut feugiat nulla nisi at ligula.</li>
-            <li><strong>Reliable & Trustworthy:</strong> Nam vehicula ante sit amet tortor efficitur, nec sodales nulla tincidunt.</li>
-          </ul>
+          <h3>Unbeatable Deals Tailored For You!</h3>
+          <p>Want to fly within your expected budget on an Aeromexico flight? You must choose Aeromexicohighfly as your travel companion, as we offer exclusive flight deals to different destinations worldwide. To find the best deals and discounts, get in touch with our experts. They will help you locate the offer that suits your travel plan.&nbsp;</p>
 
-          <h3 className="h5 mt-4">Get in Touch!</h3>
-          <p>
-            Curabitur suscipit, urna non lacinia tristique, nisi dui ullamcorper augue, eu aliquam sapien velit ut urna. Ut varius urna eu enim efficitur, vitae iaculis nisi vehicula. Sed vestibulum, leo ut volutpat tempor, libero sem tincidunt eros, at scelerisque erat nulla in tortor. Nulla id justo orci. In tempor volutpat mauris, eget dapibus justo tristique eget. 
-          </p>
+          <p>At Aeromexicohighfly, we work with the sole motive to connect travel enthusiasts to their dream destinations at low fares so they can focus on the fun parts of the trip. Book with us, and get ready for a pleasurable journey.&nbsp;</p>
+
+          <h3>Why Choose Aeromexicohighfly?</h3>
+          <p>Several reasons make us better than our competitors, which are stated below.&nbsp;</p>
+
+          <h4>Easy Bookings</h4>
+          <p>Find the flights that suit your budget and book them in no time with the help of our travel experts.</p>
+
+          <h4>Top-Notch Services</h4>
+          <p>We focus on facilitating our customers with the best services so they can book with us without giving any second thoughts.</p>
+
+          <h4>Unlimited Deals</h4>
+          <p>Special deals and discounts from us will make your journey affordable, and you can save big on your booking.&nbsp;</p>
+
+          <h4>Complete Transparency</h4>
+          <p>We promise that there will not be any hidden fees or later surprises, as we believe in 100% transparency.&nbsp;</p>
+
+          <h4>24*7 Help</h4>
+          <p>If you need any help related to bookings, cancellations, and more, our experts are available all the time to assist you.&nbsp;</p>
+
+          <h3>Book With Aeromexicohighfly Now!</h3>
+          <p>Connect with Aeromexicohighfly directly through our communication channels and request immediate help from experts. We are not directly affiliated with Aeromexico Airlines, but we will help you with the booking process. With us, you will book the cheapest Aeromexico flights with no extra effort. </p>
         </div>
       </Container>
       <Footer />
