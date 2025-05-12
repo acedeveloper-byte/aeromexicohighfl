@@ -12,15 +12,15 @@ import {
 
 const features = [
   {
-    title: "Easy Booking Option",
+    title: "Handpicked Travel Deals",
     description:
-      "With us, you can book your flight tickets to your dream destination without any additional effort. ",
+      " Our team curates top-notch offers, ensuring you get the best value for your upcoming travel plan.",
     icon: <FaDollarSign size={36} className="text-primary mb-3" />,
   },
   {
-    title: "Handpicked Travel Deals",
+    title: " Easy Booking Option",
     description:
-      "Our team curates top-notch offers, ensuring you get the best value for your upcoming travel plan.",
+      "With us, you can book your flight tickets to your dream destination without any additional effort.",
     icon: <FaHandsHelping size={36} className="text-success mb-3" />,
   },
   {
