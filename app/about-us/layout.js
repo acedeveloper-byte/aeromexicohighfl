@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "",
-  description: "",
+  title: "About Aeromexicohighfly | Your True Travel Partner",
+  description: "Aeromexicohighfly is a third-party travel website that offers excellent deals on Aeromexico flights. Book with us now!",
 };
 
 export default function RootLayout({ children }) {
