@@ -12,27 +12,27 @@ import {
 
 const features = [
   {
-    title: "Affordable Fares",
+    title: "Easy Booking Option",
     description:
-      "We offer exclusive deals because great travel experiences shouldn't come with a huge price tag.",
+      "With us, you can book your flight tickets to your dream destination without any additional effort. ",
     icon: <FaDollarSign size={36} className="text-primary mb-3" />,
   },
   {
-    title: "Premium Services",
+    title: "Handpicked Travel Deals",
     description:
-      "From a user-friendly interface to easy bookings, we believe in making your experience seamless.",
+      "Our team curates top-notch offers, ensuring you get the best value for your upcoming travel plan.",
     icon: <FaHandsHelping size={36} className="text-success mb-3" />,
   },
   {
-    title: "24*7 Customer Assistance",
+    title: "24*7 Help",
     description:
-      "Our experts are available 24*7 to help you with all your concerns related to bookings, cancellations, and more.",
+      "Our team of experts is reachable all the time to assist you regarding bookings, cancellations, and more. ",
     icon: <FaHeadset size={36} className="text-danger mb-3" />,
   },
   {
-    title: "Complete Transparency",
+    title: "100% Transparency",
     description:
-      "We focus on complete transparency so that customers can make informed decisions with confidence.",
+      "With us, you will not find any last-minute surprises as we believe in complete transparency with our customers.",
     icon: <FaShieldAlt size={36} className="text-warning mb-3" />,
   },
 ];
@@ -53,7 +53,8 @@ const CustomerHelp = () => {
           <Col key={idx} md={6} lg={3}>
             <div className="feature-card h-100 p-4 text-center rounded-4 shadow-sm bg-white">
               {feature.icon}
-              <h5 className="fw-bold">{feature.title}</h5>
+              <h5 className="fw-bold " style={{
+    fontSize: '18px'}}>{feature.title}</h5>
               <p className="text-muted small">{feature.description}</p>
             </div>
           </Col>

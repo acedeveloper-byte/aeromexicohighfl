@@ -23,8 +23,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta
-          name="google-site-verification"
-          content="pVaLl6JmQ2N5KO858MA28ltPiCr0tP-w1kRoS5ayX3Y"
+          name="Aeromexicohighfly | Book Cheap Aeromexico Flights"
+          content="Visit Aeromexicohighfly to book Aeromexico flights within your budget. Get great deals for big savings on your next flight."
         />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
