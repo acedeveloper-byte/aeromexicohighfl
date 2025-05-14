@@ -30,7 +30,7 @@ const Page = () => {
                 <Card.Body>
                   <Card.Title className="fw-bold">Airlines</Card.Title>
                   <Card.Text>
-                 <a href="/blog/american-airlines-extends" className='text-decoration-none text-dark'>  American Airlines extends its service to lesser-visited islands. </a>
+                 <a href="#" className='text-decoration-none text-dark'>  American Airlines extends its service to lesser-visited islands. </a>
                   </Card.Text>
                 </Card.Body>
               </Card>
