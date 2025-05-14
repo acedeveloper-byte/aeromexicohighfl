@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "",
-  description: "",
+  title: "Privacy Policy | Aeromexicohighfly",
+  description: "Our Privacy Policy states how we collect and use your information when you use Aeromeixcohighfly. Contact us for more details!",
 };
 
 export default function RootLayout({ children }) {

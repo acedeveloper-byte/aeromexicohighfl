@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "",
-  description: "",
+  title: "Terms Of Service | Aeromexicohighfly",
+  description: "Read our terms and conditions before using Aeromexicohighfly, and proceed further only if you agree to the mentioned terms of service. ",
 };
 
 export default function RootLayout({ children }) {
