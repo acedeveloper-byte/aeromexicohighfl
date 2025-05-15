@@ -84,7 +84,7 @@ const page = () => {
             <li >Lodge a complaint with a data protection authority</li>
             <li >Withdraw consent (where applicable)</li>
           </ul>
-          <p>You must contact us at XXXX to exercise these rights.</p>
+          <p>You must contact us at support@aeromexicohighfly.com to exercise these rights.</p>
           <h3>8. Third-Party Links</h3>
           <p>Aeromexicohighfly may contain links to third-party websites. We are not responsible for the privacy practices of those websites. Aeromexicohighfly encourages you to check out their privacy policies before using their services.</p>
           <h3>9. Changes to This Privacy Policy</h3>
