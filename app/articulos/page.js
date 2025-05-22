@@ -1,41 +1,41 @@
-'use client'
 import React from 'react'
-import Footer from '@/components/Footer'
-import Header from '@/components/Header'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Row, Card, Col } from 'react-bootstrap';
-import Image from 'next/image';
+import { Container, Row, Col, Card } from 'react-bootstrap';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
+import { HOST, SITE_ID, URL_IMAGE } from '@/utils/static';
+import CardsCustom from '@/components/Common/Card';
 
-const Page = () => {
+const getData = async () => {
+  // Replace this with your API endpoint
+  const res = await fetch(`${HOST}/articulos/get-articulos-by-siteId/${SITE_ID}`, {
+    next: { revalidate: 60 }, // optional: ISR caching
+  });
+  if (!res.ok) throw new Error('Failed to fetch posts');
+
+  return res.json();
+};
+
+const Page = async () => {
+  const posts = await getData();
+
   return (
     <>
       <Header />
 
       <Container className="mt-5 mb-5">
         <div className="text-center mb-4">
-          <h3 className="text-capitalize">Latest Posts</h3>
+          <h3 className="text-capitalize">Latest Articulos</h3>
         </div>
 
         <Row className="g-4">
-          {[1].map((item, index) => (
-            <Col key={index} md={4}>
-              <Card className="h-100 shadow-sm border-0">
-                <Image
-                  src="/images/blog-images/blog1.jpg"
-                  alt="blog"
-                  width={353}
-                  height={180}
-                  className="card-img-top"
-                />
-                <Card.Body>
-                  <Card.Title className="fw-bold">Airlines</Card.Title>
-                  <Card.Text>
-                 <a href="#" className='text-decoration-none text-dark'>  American Airlines extends its service to lesser-visited islands. </a>
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          ))}
+          {posts.response.map((item, index) => {
+            return (
+
+              <Col key={index} md={4}>
+                <CardsCustom title={item.title_tag_h1} description={item.meta_description} image={`${URL_IMAGE}articulos/${item.articulos_images}`} link={`articulos/${item.articulos_url}`} alt={item.articulos_image_tag} />
+              </Col>
+            )
+          })}
         </Row>
       </Container>
 

@@ -462,3 +462,35 @@ h1.fs-2 {
 
 
 /* my end */
+table {
+  border-radius: 8px;
+  overflow: hidden;
+  width: 80%;
+  border-collapse: collapse;
+  margin: auto; /* centers the table */
+}
+
+table th,
+table td {
+  vertical-align: middle;
+  padding: 1rem;
+  text-align: center;
+}
+
+table td {
+  background-color: #fff;
+}
+
+table thead th {
+  background-color: #343a40;
+  color: white;
+  font-weight: 600;
+}
+
+table tbody tr:nth-child(odd) td {
+  background-color: #f9f9f9;
+}
+
+table tbody tr:nth-child(even) td {
+  background-color: #ffffff;
+}
