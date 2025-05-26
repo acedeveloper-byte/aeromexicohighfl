@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="google-site-verification" content="NM2h6OEZ0eJSnS8ZlMxKrDRbEN2H7CV-g_vXuE4YMVY" />
         <meta
-          name="Aeromexicohighfly | Book Cheap Aeromexico Flights"
+          name="Aeromexicohighfly | Book Cheap  Aeromexico Flights"
           content="Visit Aeromexicohighfly to book Aeromexico flights within your budget. Get great deals for big savings on your next flight."
         />
       </head>
