@@ -40,7 +40,7 @@ const Header = () => {
               href="/articulos"
               className="mx-2 fw-medium text-decoration-none text-dark mx-3"
             >
-              Articulos
+            Artículos
             </a>
             <a
               href="/contact-us"
