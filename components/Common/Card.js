@@ -5,7 +5,7 @@ const CardsCustom = ({title , description , image , alt , link}) => {
   return (
     <a href={link} className='text-decoration-none'>
 
-   <div class="card" style={{width: "18rem;"}}>
+   <div class="card" style={{}}>
   <img src={image} class="card-img-top" alt={alt} />
   <div class="card-body">
     <h5 class="card-title">{title}</h5>
