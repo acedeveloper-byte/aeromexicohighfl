@@ -64,7 +64,6 @@ export default async function  page ({ params }) {
 
 
 
-          <>
             <div>
               <h1 className="my-3 fw-bold fs-2 text-center">
                 {posts.response.title_tag_h1}
@@ -100,7 +99,6 @@ export default async function  page ({ params }) {
 
             </Container>
 
-          </>
        
 
 
