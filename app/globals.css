@@ -494,3 +494,10 @@ table tbody tr:nth-child(odd) td {
 table tbody tr:nth-child(even) td {
   background-color: #ffffff;
 }
+
+
+ @media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1280px !important;
+    }
+  }
