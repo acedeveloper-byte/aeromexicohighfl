@@ -33,7 +33,7 @@ const Page = async () => {
             return (
 <>
               <Col key={index} md={4}>
-                <CardsCustom title={item.title_tag_h1} description={item.meta_description} image={`${URL_IMAGE}${item.blog_images}`} link={`blog/${item.blog_url}`} alt={item.blog_image_tag} />
+                <CardsCustom title={item.title_tag_h1} description={item.meta_description.slice(0, 85)} image={`${URL_IMAGE}${item.blog_images}`} link={`blog/${item.blog_url}`} alt={item.blog_image_tag} />
               </Col>
 
              
