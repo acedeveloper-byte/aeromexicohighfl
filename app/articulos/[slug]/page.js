@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Col, Container, Row } from "react-bootstrap";
 import { HOST, SITE_ID, URL_IMAGE } from "@/utils/static";
+import ArticulosRecent from "@/components/Recent/ArticulosRecent";
 // export async function generateStaticParams() {
 //   return [{ slug: "what-is-the-copa-airlines-cancellation-policy" }];
 // }
@@ -80,18 +81,11 @@ export default async function  page ({ params }) {
                       alt="Copa Airlines Cancellation Policy" style={{ width: '100%' }}
                     />
                   </div>
-                  <div dangerouslySetInnerHTML={{ __html: posts.response.articulos_description }} />
+                  <div dangerouslySetInnerHTML={{ __html: posts.response.articulos_description }} className="my-4"/>
                 </Col>
                 <Col md={3} >
 
-                  {/* <div className="blog-list">
-                    <h3>Recent Posts</h3>
-                    {json.map((posts, index) => (
-                      <a href={`/blog/${posts.response.slug}`} className="blog-card" key={index}>
-                        <p className="blog-title">{posts.response.title}</p>
-                      </a>
-                    ))}
-                  </div> */}
+                <ArticulosRecent/>
 
 
                 </Col>
